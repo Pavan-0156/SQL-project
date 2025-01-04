@@ -11,6 +11,7 @@ The database consists of four main tables:<br>
 
 # Questions solved
 1.Retrieve the total number of orders placed.<br>
+'''sql
 code--select count(order_id) as total_orders from orders
-
+'''
 
