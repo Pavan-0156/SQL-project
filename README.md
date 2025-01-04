@@ -7,4 +7,9 @@ The database consists of four main tables:<br>
 <b>Orders</b>: Captures details of customer orders, such as order ID,date, and time.<br>
 <b>Order_Details</b>: Represents the items in each order, including the order_detail_ID, pizza ID, quantity, and order_id.<br>
 
-<b>Dataset used</b> = <a href = "https://github.com/Pavan-0156/SQL-project/blob/main/pizza_sales.zip"> PIZZA</a>
+<b>Dataset used</b> = <a href = "https://github.com/Pavan-0156/SQL-project/blob/main/pizza_sales.zip"> PIZZA</a> 
+
+# Questions solved
+1.Retrieve the total number of orders placed.
+
+
