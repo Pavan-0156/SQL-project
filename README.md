@@ -14,4 +14,10 @@ The database consists of four main tables:<br>
 ```sql
 code--select count(order_id) as total_orders from orders
 ```
-
+2.Calculate the total revenue generated from pizza sales.<br>
+```sql
+select
+sum(order_details.quantity * pizzas.price) as revenue
+from order_details join pizzas
+on pizzas.pizza_id=order_details.pizza_id
+```
