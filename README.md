@@ -10,6 +10,7 @@ The database consists of four main tables:<br>
 <b>Dataset used</b> = <a href = "https://github.com/Pavan-0156/SQL-project/blob/main/pizza_sales.zip"> PIZZA</a> 
 
 # Questions solved
-1.Retrieve the total number of orders placed.
+1.Retrieve the total number of orders placed.<br>
+code--select count(order_id) as total_orders from orders
 
 
