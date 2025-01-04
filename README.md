@@ -7,4 +7,4 @@ The database consists of four main tables:<br>
 <b>Orders</b>: Captures details of customer orders, such as order ID, order date, and customer information.<br>
 <b>Order_Details</b>: Represents the items in each order, including the order ID, pizza ID, quantity, and other relevant metrics.<br>
 
-Dataset used = <a href>
+Dataset used = <a href =https://github.com/Pavan-0156/SQL-project/blob/main/pizza_sales.zip> PIZZA<>
