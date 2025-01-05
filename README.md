@@ -2,8 +2,6 @@
 The Pizza Sales project involves managing and analyzing data related to a pizza business.<br>
 The database consists of four main tables:<br>
 
-[!image alt](https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dpizza%2Bslice%2Bcartoon&psig=AOvVaw1-eRmZeYGLcSfsbEERlzt2&ust=1736144355228000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiNrO_33YoDFQAAAAAdAAAAABAE)
-
 <b>Pizza</b>: Contains details about each type of pizza, including pizza ID,size,price and associated pizza type.<br>
 <b>Pizza_Type</b>: Stores information about different pizza categories (e.g., vegetarian, non-vegetarian),ingrediants and name.<br>
 <b>Orders</b>: Captures details of customer orders, such as order ID,date, and time.<br>
