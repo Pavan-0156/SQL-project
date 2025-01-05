@@ -12,7 +12,7 @@ The database consists of four main tables:<br>
 # Questions solved
 1.Retrieve the total number of orders placed.<br>
 ```sql
-code--select count(order_id) as total_orders from orders
+select count(order_id) as total_orders from orders
 ```
 2.Calculate the total revenue generated from pizza sales.<br>
 ```sql
@@ -23,5 +23,8 @@ on pizzas.pizza_id=order_details.pizza_id
 ```
 3.Identify the highest-priced pizza.
 ```sql
-
+select pizza_types.name, pizzas.price
+from pizza_types join pizzas
+on pizza_types.pizza_type_id = pizzas.pizza_type_id
+order by pizzas.price desc limit 1;
 ```
