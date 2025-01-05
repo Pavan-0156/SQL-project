@@ -63,3 +63,11 @@ FROM
 GROUP BY
     HOUR(order_time);
 ```
+8.Join relevant tables to find the category-wise distribution of pizzas.
+```sql
+select round(avg(quantity), 0) from order_quantity
+(select orders.order_date, sum(order_details.quantity) as quantity
+from orders join order_details
+on orders.order_id = order_details.order_id
+group by orders.order_date) as order_quantity
+```
